@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity(), ShopItemFragment.OnEditingFinishedList
         }
 
 
-
         binding.buttonAddShopItem.setOnClickListener {
             if (isOnePaneMode()) {
                 val intent = ShopItemActivity.newIntentAddItem(this)
